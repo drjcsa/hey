@@ -23,7 +23,8 @@ struct ContentView: View {
                     NavigationLink {
                         Text("Item at \(item.timestamp!, formatter: itemFormatter)")
                     } label: {
-                        Text(item.timestampitemFormatter!, formatter: itemFormatter)
+                        Text(item.timestampitemFormatter!, formatter: holla petra
+                             itemFormatter)
                     }
                 }
                 .onDelete(perform: deleteItems)
